@@ -18,7 +18,7 @@ export const Ejercicio002 = () => {
 
 
   return (
-    <div className="row mt-4">
+    <div className="row mt-4 ">
         <div className="col-12">
             <h2 className="h4 mt-4">
                 Ejercicio002 - Boton y funciones
@@ -32,7 +32,6 @@ export const Ejercicio002 = () => {
         </spn>
            
         </button>
-
         <button className="w-25 btn btn-danger mx-2" onClick={eliminarACarritoCompreas} >
         <i class="bi bi-trash3"></i>
         <spn className="col-12 col-md-6 col-lg-5 mx-2 w-100">
